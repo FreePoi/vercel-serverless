@@ -5,7 +5,6 @@ import ip from 'ipaddr.js'
 import axios from 'axios'
 import dns from 'node:dns'
 
-
 const deserializeNetworkAddress = (str: string) => {
   if (!str || typeof str !== 'string') return
 
