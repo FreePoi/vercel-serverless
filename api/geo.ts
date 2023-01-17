@@ -64,7 +64,7 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     },
   })
 
-  const count = Number(response.headers['content-range'].split('/')[1])
+  const count = Number(response.headers['content-range']?.split('/')[1])
 
   const page = Math.ceil(count / 50)
 
