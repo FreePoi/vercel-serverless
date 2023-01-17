@@ -53,7 +53,7 @@ const deserializeNetworkAddress = (str: string) => {
   return result
 }
 
-export default async function geo (req: VercelRequest, res: VercelResponse) {
+export default async function (req: VercelRequest, res: VercelResponse) {
   //
   // const { name = 'World' } = req.query
 
