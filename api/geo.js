@@ -51,7 +51,7 @@ const deserializeNetworkAddress = (str) => {
   return result
 }
 
-export default async function (req, res) {
+module.exports = async function (req, res) {
   //
   // const { name = 'World' } = req.query
 
